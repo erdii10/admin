@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\erdip\Desktop\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="anketduzenle.aspx">
+      <publishTime>11/25/2021 00:19:39</publishTime>
+    </File>
+    <File Include="anketekle.aspx">
+      <publishTime>11/25/2021 21:07:30</publishTime>
+    </File>
+    <File Include="anketler.aspx">
+      <publishTime>11/25/2021 00:01:11</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>05/13/2018 00:55:21</publishTime>
+    </File>
+    <File Include="bin/admin.dll">
+      <publishTime>02/15/2022 18:36:36</publishTime>
+    </File>
+    <File Include="bin/admin.pdb">
+      <publishTime>02/15/2022 18:36:36</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>05/13/2018 00:55:21</publishTime>
+    </File>
+    <File Include="bin/CollectionPager.dll">
+      <publishTime>12/17/2012 14:00:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>06/29/2011 14:48:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>05/16/2018 18:49:44</publishTime>
+    </File>
+    <File Include="eliste.aspx">
+      <publishTime>01/30/2022 14:54:50</publishTime>
+    </File>
+    <File Include="elistegonder.aspx">
+      <publishTime>11/04/2021 23:19:00</publishTime>
+    </File>
+    <File Include="galeri.aspx">
+      <publishTime>11/25/2021 21:03:41</publishTime>
+    </File>
+    <File Include="galeriduzenle.aspx">
+      <publishTime>11/27/2021 19:40:13</publishTime>
+    </File>
+    <File Include="galeriekle.aspx">
+      <publishTime>11/27/2021 18:09:48</publishTime>
+    </File>
+    <File Include="haberdosyaduzenle.aspx">
+      <publishTime>10/26/2021 20:59:47</publishTime>
+    </File>
+    <File Include="haberdosyaekle.aspx">
+      <publishTime>10/26/2021 20:33:32</publishTime>
+    </File>
+    <File Include="haberduzenle.aspx">
+      <publishTime>10/31/2021 11:58:10</publishTime>
+    </File>
+    <File Include="haberekle.aspx">
+      <publishTime>02/14/2022 19:26:54</publishTime>
+    </File>
+    <File Include="haberler.aspx">
+      <publishTime>10/26/2021 20:03:07</publishTime>
+    </File>
+    <File Include="haberresimduzenle.aspx">
+      <publishTime>10/26/2021 20:59:59</publishTime>
+    </File>
+    <File Include="haberresimekle.aspx">
+      <publishTime>10/26/2021 20:26:08</publishTime>
+    </File>
+    <File Include="icerikdosyaduzenle.aspx">
+      <publishTime>10/26/2021 21:20:17</publishTime>
+    </File>
+    <File Include="icerikdosyaekle.aspx">
+      <publishTime>10/30/2018 17:56:35</publishTime>
+    </File>
+    <File Include="icerikduzenle.aspx">
+      <publishTime>10/31/2021 11:57:57</publishTime>
+    </File>
+    <File Include="icerikekle.aspx">
+      <publishTime>02/14/2022 19:19:22</publishTime>
+    </File>
+    <File Include="icerikler.aspx">
+      <publishTime>10/26/2021 19:08:48</publishTime>
+    </File>
+    <File Include="icerikresimduzenle.aspx">
+      <publishTime>10/26/2021 21:20:08</publishTime>
+    </File>
+    <File Include="icerikresimekle.aspx">
+      <publishTime>06/01/2018 12:56:58</publishTime>
+    </File>
+    <File Include="ik.aspx">
+      <publishTime>11/27/2021 19:30:16</publishTime>
+    </File>
+    <File Include="ikduzenle.aspx">
+      <publishTime>11/27/2021 19:36:54</publishTime>
+    </File>
+    <File Include="iletisim.aspx">
+      <publishTime>02/15/2022 18:18:24</publishTime>
+    </File>
+    <File Include="kirp.aspx">
+      <publishTime>10/26/2021 16:52:56</publishTime>
+    </File>
+    <File Include="kullaniciduzenle.aspx">
+      <publishTime>10/31/2021 11:57:10</publishTime>
+    </File>
+    <File Include="kullaniciekle.aspx">
+      <publishTime>10/30/2021 02:27:15</publishTime>
+    </File>
+    <File Include="kullanicilar.aspx">
+      <publishTime>10/30/2021 03:04:38</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>01/30/2022 15:02:54</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/13/2018 00:58:42</publishTime>
+    </File>
+    <File Include="scripts/jquery.Jcrop.css">
+      <publishTime>12/17/2015 23:05:05</publishTime>
+    </File>
+    <File Include="scripts/jquery.Jcrop.js">
+      <publishTime>12/17/2015 23:04:46</publishTime>
+    </File>
+    <File Include="scripts/jquery.min.js">
+      <publishTime>10/30/2021 02:17:05</publishTime>
+    </File>
+    <File Include="scripts/style.css">
+      <publishTime>11/27/2021 19:34:54</publishTime>
+    </File>
+    <File Include="sifre.aspx">
+      <publishTime>01/30/2022 15:05:12</publishTime>
+    </File>
+    <File Include="sil.aspx">
+      <publishTime>10/26/2021 15:39:29</publishTime>
+    </File>
+    <File Include="Skin.Master">
+      <publishTime>01/30/2022 14:02:13</publishTime>
+    </File>
+    <File Include="slider.aspx">
+      <publishTime>01/29/2022 18:32:30</publishTime>
+    </File>
+    <File Include="sliderduzenle.aspx">
+      <publishTime>01/30/2022 13:58:39</publishTime>
+    </File>
+    <File Include="sliderekle.aspx">
+      <publishTime>01/29/2022 19:16:49</publishTime>
+    </File>
+    <File Include="sss.aspx">
+      <publishTime>10/27/2021 16:47:06</publishTime>
+    </File>
+    <File Include="sssduzenle.aspx">
+      <publishTime>10/31/2021 12:02:56</publishTime>
+    </File>
+    <File Include="sssekle.aspx">
+      <publishTime>10/31/2021 12:34:25</publishTime>
+    </File>
+    <File Include="videoduzenle.aspx">
+      <publishTime>11/02/2021 00:25:21</publishTime>
+    </File>
+    <File Include="videoekle.aspx">
+      <publishTime>11/24/2021 23:41:24</publishTime>
+    </File>
+    <File Include="videolar.aspx">
+      <publishTime>11/02/2021 00:03:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/15/2022 18:36:36</publishTime>
+    </File>
+    <File Include="zaman.aspx">
+      <publishTime>10/31/2021 14:22:36</publishTime>
+    </File>
+    <File Include="zamanduzenle.aspx">
+      <publishTime>11/01/2021 23:16:56</publishTime>
+    </File>
+    <File Include="zamanekle.aspx">
+      <publishTime>10/31/2021 14:34:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

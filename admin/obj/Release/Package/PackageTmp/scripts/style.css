@@ -1,0 +1,76 @@
+﻿body { margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; color: #525261; font-size: 12px; text-decoration: none; line-height: 100%; background-color: #EEEEEE; }
+.Temizle { clear:both; }
+.DivOrtala { width:455px; height:400px; position:absolute; box-shadow:0px 0px 10px #888; left:50%; top:50%; background-color:white; margin-left:-225px; margin-top:-200px; }
+/* Sayfalama */
+.Sayfalama a { background-color:#ccc; border:solid 1px #e4e4e4; padding:5px; font-size:9pt; color:#666; cursor:pointer; }
+.Sayfalama a:link, .Sayfalama a:visited, .Sayfalama a:active { border:solid 1px #ccc; padding:5px;  font-size:9pt; color:#666; font-weight:bold; text-decoration:none; cursor:pointer; }
+.Sayfalama a:hover { background-image:url('/img/sayfabg2.jpg'); border:solid 1px #ccc; padding:5px; font-size:9pt; color:White; cursor:pointer; }
+.Sayfalama INPUT { background-image:url('/img/sayfabg.jpg'); border:solid 1px #ccc; padding:5px; margin:1px; font-size:9pt; color:#666; font-weight:bold; cursor:pointer; }
+.Sayfalama span { color: #666; font-size: 9px; text-decoration: none; line-height: 100%; margin: 1px; font-weight: bold; }
+.Sayfalama B { background-image:url('/img/sayfabg2.jpg'); border:solid 1px #ccc; padding:5px; font-size:9pt; color:#666; cursor:pointer; }
+/*Background*/
+#Logo { width:225px; margin:auto; margin-top:30px; }
+#LoginForms{ width:400px; margin:auto; margin-top:50px; }
+.LoginTextBox { width:98%; height:23px; margin:0; margin-top:3px; padding:5px; padding-right:0; font-family: 'Open Sans', sans-serif; color:#525261; font-size:12px; text-decoration:none; outline:none; line-height:100%; border:1px solid #CCCCCC; }
+.LoginButton { margin:0px; padding:0; width:80px; height:35px; background-color:#2693FF; color:white; font-size:15px; cursor:pointer; outline:none; border:0px; }
+#Pass { width:400px; margin:auto; margin-top:30px; }
+#Top { width:100%; height:70px; background-color:white; border-bottom:1px solid #CCC; }
+#TopLogo { margin:10px; }
+#Profile { margin:15px; margin-bottom:0px; }
+#Menu { height:74px; background-image:url("/images/menu.jpg"); background-repeat:repeat-x; }
+#MenuOrtala { text-align:center; }
+.HomeBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/home.png"); background-repeat:no-repeat; background-position:center 15px; }
+.HomeBg:hover { background-color:#eee; }
+.IcerikBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/icerik.png"); background-repeat:no-repeat; background-position:center 15px; }
+.IcerikBg:hover { background-color:#eee; }
+.HaberBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/haber.png"); background-repeat:no-repeat; background-position:center 15px; }
+.HaberBg:hover { background-color:#eee; }
+.SSSBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/sss.png"); background-repeat:no-repeat; background-position:center 15px; }
+.SSSBg:hover { background-color:#eee; }
+.ZamanBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/zamanlayici.png"); background-repeat:no-repeat; background-position:center 15px; }
+.ZamanBg:hover { background-color:#eee; }
+.VideoBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/videolar.png"); background-repeat:no-repeat; background-position:center 15px; }
+.VideoBg:hover { background-color:#eee; }
+.ElisteBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/eliste.png"); background-repeat:no-repeat; background-position:center 15px; }
+.ElisteBg:hover { background-color:#eee; }
+.AnketBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/anket.png"); background-repeat:no-repeat; background-position:center 15px; }
+.AnketBg:hover { background-color:#eee; }
+.GaleriBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/galeri.png"); background-repeat:no-repeat; background-position:center 15px; }
+.GaleriBg:hover { background-color:#eee; }
+.IKBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/ik.png"); background-repeat:no-repeat; background-position:center 15px; }
+.IKBg:hover { background-color:#eee; }
+.SliderBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/slider.png"); background-repeat:no-repeat; background-position:center 15px; }
+.SliderBg:hover { background-color:#eee; }
+.KullanıcılarBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/kullanicilar.png"); background-repeat:no-repeat; background-position:center 15px; }
+.KullanıcılarBg:hover { background-color:#eee; }
+.IletisimBg { display:inline-block; width:70px; height:70px; margin:7px; margin-top:0px; margin-bottom:0px; background-image:url("/images/iletisim.png"); background-repeat:no-repeat; background-position:center 15px; }
+.IletisimBg:hover { background-color:#eee; }
+.Kenar { width:98%; margin:auto; margin-top:15px; }
+.UstBaslik { font-size:25px; font-weight:100; color:#878787; }
+.IcerikTaban {  background-color:white; margin-top:15px; margin-bottom:15px; padding:20px; }
+#IcerikUst { font-weight:bold; border-bottom:2px solid #CCC; padding-bottom:10px; }
+#AltIcerikUst { font-weight:bold; width:20%; border-bottom:2px solid #CCC; padding-bottom:5px; margin-top:20px; }
+.IcerikVeri { border-bottom:1px solid #CCC; padding-top:10px; padding-bottom:5px; }
+#IcerikTop {  background-color:white; margin-top:15px; margin-bottom:15px; padding:15px; padding-left:20px; padding-right:20px; text-align:center; }
+.IcerikEkle { float:left; color:#525261; text-decoration:none; height:16px; padding-left:25px; padding-top:5px; background-image:url("/images/ekle.jpg"); background-repeat:no-repeat; background-position:left center; }
+.IcerikEkle:hover { text-decoration:underline; }
+.IcerikListele { float:right; color:#525261; text-decoration:none; height:16px; padding-left:25px; padding-top:5px; background-image:url("/images/listele.jpg"); background-repeat:no-repeat; background-position:left center; }
+.IcerikListele:hover { text-decoration:underline; }
+.Text { width:50%; height:20px; border:1px solid #CCC; padding:5px; font-family: 'Open Sans', sans-serif; color:#525261; font-size:12px; text-decoration:none; outline:none; line-height:100%; }
+.Text2 { width:5%; height:20px; border:1px solid #CCC; padding:5px; font-family: 'Open Sans', sans-serif; color:#525261; font-size:12px; text-decoration:none; outline:none; line-height:100%; }
+.Text3 { width:50%; height:120px; border:1px solid #CCC; padding:5px; font-family: 'Open Sans', sans-serif; color:#525261; font-size:12px; text-decoration:none; outline:none; line-height:100%; }
+.Text4 { width:10%; height:20px; border:1px solid #CCC; padding:5px; font-family: 'Open Sans', sans-serif; color:#525261; font-size:12px; text-decoration:none; outline:none; line-height:100%; }
+.Buton { width:70px; height:30px; border:0px; cursor:pointer; background-color:#666; color:white; font-size:13px; }
+.IcerikImgBg { float:left; margin:10px; margin-left:0px; margin-top:0px; width:32%; height:170px; border:1px solid #CCC; box-shadow: 2px 2px 8px #888; }
+.ResimBg { float:left; margin:5px; width:50%; height:94%; }
+.ResimText { float:left; margin-left:5px; margin-top:5px; width:46%; }
+.ProfilImg { border-radius: 50%; }
+/*Text*/
+.Link {color:red; text-decoration:underline;}
+.Link:hover {color:red; text-decoration:none; cursor:pointer;}
+.HoverText { text-decoration:none; color:#525261; }
+.HoverText:hover { line-height:100%; text-decoration:underline; }
+.MenuText { color:#888; padding-top:52px; text-align:center; }
+.IcerikLink { color:#525261; text-decoration:underline; }
+.IcerikLink:hover { text-decoration:none; }
+.Yazi {  font-family: 'Open Sans', sans-serif; color: #525261; font-size: 12px; text-decoration: none; line-height: 100%; }

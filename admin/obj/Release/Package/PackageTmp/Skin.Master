@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Skin.master.cs" Inherits="admin.Skin" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin Panel v3.2</title>
+    <link type="text/css" rel="stylesheet" href="/scripts/style.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Top">
+        <div id="TopLogo" style="float:left;"><img src="/images/logo.png" border="0" /></div>
+        <div id="Profile" style="float:right;">
+            <div style="float:right; margin-top:15px; margin-left:10px;"><span><asp:Label ID="lbladsoyad" runat="server" Text="Erdi Polat"></asp:Label></div>
+            <div style="float:right;"><%if (resimkontrol == "var"){%><img src="/img/profile/<%=resim %>" width="44" height="41" border="0" class="ProfilImg" /><%} %><%if (Session["Id"].ToString() == "9000"){%><img src="/images/admin.jpg" width="44" height="41" border="0" class="ProfilImg" /><%} %></div>
+            <div style="float:right; margin-top:15px; margin-right:10px;"><a href="/" class="HoverText">Siteye Geri Dön</a></div>
+            <div style="float:right; margin-top:15px; margin-right:5px;">|</div>
+            <div style="float:right; margin-top:15px; margin-right:5px;"><asp:LinkButton ID="LinkButton1" CssClass="HoverText" runat="server" OnClick="LinkButton1_Click">Güvenli Çıkış</asp:LinkButton></div>
+            <div class="Temizle"></div>
+        </div>
+        <div class="Temizle"></div>
+    </div>
+    <div id="Menu">
+        <div id="MenuOrtala">
+            <a href="/"><span class="HomeBg"><div class="MenuText">Ana Sayfa</div></span></a>
+            <%if (icerikgos == "1"){%><a href="icerikler.aspx"><span class="IcerikBg"><div class="MenuText">İçerikler</div></span></a><%} %>
+            <%if (habergos == "1"){%><a href="haberler.aspx"><span class="HaberBg"><div class="MenuText">Haberler</div></span></a><%} %>
+            <%if (sssgos == "1"){%><a href="sss.aspx"><span class="SSSBg"><div class="MenuText">S.S.S.</div></span></a><%} %>
+            <%if (zamangos == "1"){%><a href="zaman.aspx"><span class="ZamanBg"><div class="MenuText">Zamanlayıcı</div></span></a><%} %>
+            <%if (videogos == "1"){%><a href="videolar.aspx"><span class="VideoBg"><div class="MenuText">Videolar</div></span></a><%} %>
+            <%if (elistegos == "1"){%><a href="eliste.aspx"><span class="ElisteBg"><div class="MenuText">E-Liste</div></span></a><%} %>
+            <%if (anketgos == "1"){%><a href="anketler.aspx"><span class="AnketBg"><div class="MenuText">Anket</div></span></a><%} %>
+            <%if (galerigos == "1"){%><a href="galeri.aspx"><span class="GaleriBg"><div class="MenuText">Galeri</div></span></a><%} %>
+            <%if (ikgos == "1"){%><a href="ik.aspx"><span class="IKBg"><div class="MenuText">İ.K.</div></span></a><%} %>
+            <%if (slidergos == "1"){%><a href="slider.aspx"><span class="SliderBg"><div class="MenuText">Slider</div></span></a><%} %>
+            <%if (kullanicigos == "1"){%><a href="kullanicilar.aspx"><span class="KullanıcılarBg"><div class="MenuText">Kullanıcılar</div></span></a><%} %>
+            <%if (iletisimgos == "1"){%><a href="iletisim.aspx"><span class="IletisimBg"><div class="MenuText">İletişim</div></span></a><%} %>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
